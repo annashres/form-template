@@ -1,0 +1,11 @@
+RateLimitExceededError
+InvalidEducationRecordError
+InvalidOpenGraphObjectError
+UnauthorizedError
+NotFoundError
+InvalidMessageError
+InvalidPreviousCompanyRecord
+InvalidUserError
+ResponseError
+TooManyTopicsError
+InvalidAccessTokenError

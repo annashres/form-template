@@ -1,0 +1,17 @@
+models
+BitField
+forms
+pickle
+CompositeBitFieldTest
+BitFormFieldTest
+BitFieldTest
+BitFieldTestModelForm
+CompositeBitFieldTestModel
+Bit
+tests
+BitHandlerTest
+BitFieldSerializationTest
+BitHandler
+BitFieldTestModel
+CompositeBitField
+BitTest

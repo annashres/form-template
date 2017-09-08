@@ -1,0 +1,11 @@
+AppContext
+has_app_context
+HTTPException
+_RequestGlobals
+after_this_request
+sys
+RequestContext
+has_request_context
+blueprint_is_module
+_request_ctx_stack
+_app_ctx_stack

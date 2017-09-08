@@ -1,0 +1,81 @@
+{% extends "app/layout.html" %}
+{% load bootstrap %}
+{% block content %}
+<div class="header-upper">
+    <div class="container">
+        <img src="https://www.sqlserver2016isvaccelerator.com/Content/images/mslogo.png" alt="Microsoft Logo" />
+    </div>
+</div>
+
+<div class="header">
+    <div class="container ">
+        <h1 class="text-center">Join our limited public preview</h1>
+        <h4 class="subtitle text-center">subtitle on the limited preview</h4>
+        <div style="padding-top:3em;" class="col-xs-12 text-center">
+        </div>
+    </div>
+</div>
+
+   <div class="container">
+    <div class="main-content section">
+        <div class="text-center spacer-40">
+            <img id="logo" src="https://www.sqlserver2016isvaccelerator.com/Content/images/sql_icon.png" alt="SQL Icon" />
+        </div>
+        <p class="spacer-40">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+
+            <br /> 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        </p>
+
+    </div> 
+</div>
+<div class="section-slate" id="learn-more">
+    <div class="container">
+        <div class="section">
+            <div class="col-sm-10 rem-pad-left">
+                <h4>Benefits</h4>
+                <ul>
+                    <li>Cool benefit</li>
+                    <li>Cool benefit #2</li>
+                    <li>Cool benefit #3</li>
+       
+                </ul>
+            </div>
+            <div class="col-sm-6">
+                <h4>Resources</h4>
+                <ul>
+                    <li><a target="_blank" href="https://microsoft.com">link</a></li>
+                    <li><a target="_blank" href="https://microsoft.com">link</a></li>
+                    <li><a target="_blank" href="https://microsoft.com">link</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+    <div class="container">
+
+      <div class="section" id="enroll">
+        <div class="main-content">
+                <div class="container">
+        <div class="main-content">
+
+     <div class="col-md-offset-3 col-md-6">
+        <h4 style="text-align:center;">
+            To sign up for the limited preview, please fill out this form. All fields are required. 
+                </h4>
+             <hr />
+          <form method="POST" class="post-form" novalidate="novalidate">{% csrf_token %}
+         <div class="col-md-20 float-none">
+                {{ form | bootstrap }}
+        </div>
+          <button type="submit" class="btn btn-default btn-lg" onclick="this.disabled=true,this.form.submit();">SUBMIT</button>
+        </form>
+              </div>
+
+             </div>
+    </div>
+  </div>
+   </div>
+  </div> 
+{% endblock %}

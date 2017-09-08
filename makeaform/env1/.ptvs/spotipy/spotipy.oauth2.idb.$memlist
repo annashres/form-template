@@ -1,0 +1,12 @@
+requests
+base64
+time
+SpotifyOAuth
+json
+SpotifyClientCredentials
+SpotifyOauthError
+print_function
+os
+urllibparse
+urllib
+sys

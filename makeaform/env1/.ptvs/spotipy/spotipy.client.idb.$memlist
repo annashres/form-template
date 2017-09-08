@@ -1,0 +1,8 @@
+Spotify
+requests
+base64
+time
+json
+print_function
+sys
+SpotifyException

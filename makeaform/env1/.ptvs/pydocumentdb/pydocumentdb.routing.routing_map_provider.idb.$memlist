@@ -1,0 +1,5 @@
+routing_range
+base
+_PartitionKeyRangeCache
+_CollectionRoutingMap
+_SmartRoutingMapProvider

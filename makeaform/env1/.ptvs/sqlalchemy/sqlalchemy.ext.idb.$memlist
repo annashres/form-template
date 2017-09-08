@@ -1,0 +1,9 @@
+mutable
+sqlsoup
+declarative
+associationproxy
+orderinglist
+compiler
+horizontal_shard
+serializer
+hybrid

@@ -1,0 +1,7 @@
+InformixDialect
+VERSION_RE
+dialect
+default
+InformixExecutionContext_informixdb
+InformixDialect_informixdb
+re

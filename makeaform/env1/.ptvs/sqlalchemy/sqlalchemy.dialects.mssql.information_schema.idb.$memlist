@@ -1,0 +1,17 @@
+MetaData
+key_constraints
+Column
+constraints
+CoerceUnicode
+column_constraints
+schemata
+columns
+Integer
+String
+TypeDecorator
+ref_constraints
+views
+tables
+Unicode
+Table
+ischema

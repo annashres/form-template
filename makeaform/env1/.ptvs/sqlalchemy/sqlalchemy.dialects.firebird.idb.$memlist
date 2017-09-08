@@ -1,0 +1,15 @@
+dialect
+kinterbasdb
+BLOB
+BIGINT
+CHAR
+NUMERIC
+TEXT
+__all__
+TIME
+FLOAT
+TIMESTAMP
+VARCHAR
+SMALLINT
+DATE
+base

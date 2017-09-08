@@ -1,0 +1,7 @@
+templatetags
+meta
+VERSION
+tests
+models
+config
+__version__

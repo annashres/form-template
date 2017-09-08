@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azure Migrate Preview </title>
+    {% load staticfiles %}
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/bootstrap.min.css' %}" />
+    <link rel="stylesheet" type="text/css" href="{% static 'app/content/site.css' %}" />
+    <script src="{% static 'app/scripts/modernizr-2.6.2.js' %}"></script>
+    <link rel="icon" href="https://www.microsoft.com/favicon.ico?v2">
+</head>
+<body>
+{% block content %}{% endblock %}
+    <div class="footer">
+    <div class="container">
+        <p><a href="https://support.microsoft.com/en-us/contactus/" target="_blank">Contact Us</a></p>
+        <p><a href="https://privacy.microsoft.com/en-us/privacystatement" target="_blank">Privacy and cookies</a></p>
+        <p><a href="https://www.microsoft.com/en-us/servicesagreement/" target="_blank">Terms of use</a></p>
+        <p><a href="https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/en-us.aspx" target="_blank">Trademarks</a></p>
+        <p><a href="http://choice.microsoft.com/en-US/opt-out" target="_blank">About our ads</a></p>
+        <p>&copy; 2017 Microsoft</p>
+    </div>
+</div>
+
+    <script src="{% static 'app/scripts/jquery-1.10.2.js' %}"></script>
+    <script src="{% static 'app/scripts/bootstrap.js' %}"></script>
+    <script src="{% static 'app/scripts/respond.js' %}"></script>
+{% block scripts %}{% endblock %}
+
+</body>
+</html>

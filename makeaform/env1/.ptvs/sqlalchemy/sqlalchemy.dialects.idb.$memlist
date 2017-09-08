@@ -1,0 +1,13 @@
+firebird
+drizzle
+postgresql
+oracle
+__all__
+sqlite
+sybase
+maxdb
+access
+informix
+mysql
+mssql
+postgres
